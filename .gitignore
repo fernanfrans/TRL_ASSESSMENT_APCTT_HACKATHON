@@ -1,0 +1,23 @@
+# Python environments
+apctt-env/
+.venv/
+
+# Downloaded models
+models/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Generated server data and requests
+server_data/
+my_cases/
+
+# Secrets
+.env
+.env.*
+!.env.example
